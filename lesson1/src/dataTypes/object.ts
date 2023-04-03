@@ -66,3 +66,4 @@ type Admin = User & {
 //     is_admin: boolean,
 //     role: ROLE.STAFF | ROLE.MANAGER
 // }
+
