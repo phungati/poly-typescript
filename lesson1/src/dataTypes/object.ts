@@ -12,7 +12,7 @@ interface Book {
     categories: {id: number, name: string, is_leaf: boolean},
     current_seller: Seller[],
     description: string,
-    images: Image[]
+    // images: Image[]
 }
 
 interface Seller {
@@ -29,24 +29,24 @@ interface Seller {
 }
 
 // Type alias
-type Image = {
-    base_url: string,
-    is_gallery: boolean,
-    label: string
-}
+// type Image = {
+//     base_url: string,
+//     is_gallery: boolean,
+//     label: string
+// }
 
-type User = {
-    username: string,
-    password: string,
-    email: string
-}
+// type User = {
+//     username: string,
+//     password: string,
+//     email: string
+// }
 
-enum ROLE {STAFF, MANAGER}
+// enum ROLE {STAFF, MANAGER}
 
-type Admin = User & {
-    is_admin: boolean,
-    role: ROLE.STAFF | ROLE.MANAGER
-}
+// type Admin = User & {
+//     is_admin: boolean,
+//     role: ROLE.STAFF | ROLE.MANAGER
+// }
 
 // Properties
 // interface User {
